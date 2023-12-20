@@ -1,0 +1,55 @@
+.header {
+  height: 150px;
+  width: 100%;
+  padding-top: 30px;
+  
+}
+
+
+.card{
+  display:inline-block;
+  margin: 10px;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+  width: 400px;
+
+ 
+}
+
+.card-title{
+  font-size: 20px;
+  font-family:'Times New Roman', Times, serif;
+  letter-spacing: 1px;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: bold;
+  width:auto;
+  height: 30px;
+  text-align: center;
+  
+  
+  
+
+}
+.card-text{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: auto;
+  height: auto;
+
+ 
+}
+
+.task-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 600px;
+  width: 100%;
+
+
+}
+
+
+
+
